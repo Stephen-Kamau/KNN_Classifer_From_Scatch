@@ -4,3 +4,5 @@
 ## The Classifier is able to perfom well with over 50% accuracy 
 ## Passing accuracy scored by the sklearn classifier of KNN..
 ## Feel free to modifier it to improve accuracy..
+
+## The model was trained with 3000 images ..

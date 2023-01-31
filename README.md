@@ -5,7 +5,7 @@ The "KNN_Classifier_From_Scratch" script demonstrates the process of building a 
 ## Class Animals classification using K-Nearest Neighbor classifier
 In This Exercise , two  models   were used to check their performance . The models implement a method of selecting the closed neighbour from a dataset provided to give out the predicted values. The First model was implementation of K-nearest Neighbors implementation from scratch which used L1 and L2 (Manhattan ,  Euclidean) distances while the second model was from sklearn package .Based on the tests done , the model built from scratch performed well on both L1 and L2 distances than the model from sklearn.  L2 (Manhattan ) distance  performed very well  on normalized data thus was used to get the following scores .
 
-From the training done using both distances , the best score value was  using the L1 distance norm when the data was normalized . The best score obtained from L1 distance was about 53.33% which was much better than using the model from sklearn package. This best score was obtained when the value of k was 5 hence making K=5 to be the best nearest neighbours to be used in the model.
+From the training done using both distances , the best score value was  using the L1 distance norm when the data was normalized . The best score obtained from L1 distance was about 56.2% which was much better than using the model from sklearn package. This best score was obtained when the value of k was 7 hence making K=7 to be the best nearest neighbours to be used in the model.
 Below are some of the diagrams that were used to select the model and distance to be used for final classification.
 For the  model built from scratch  both L1 , L2  distances were used and also for sklearn package one trained over 3 , 5 and 7 as K values.
 
@@ -50,3 +50,7 @@ The diagram below shows the Confusion Matrix obtained from the above data format
 
 ![image](https://user-images.githubusercontent.com/43881878/215792271-345b3259-2afa-4780-9f42-74e6a397ec6d.png)
 
+
+
+## YOu can check the article from here
+https://medium.com/@stiveckamash/k-nearest-neighbors-algorithm-from-scratch-using-numpy-in-python-a-comprehensive-guide-for-f54b668db140
